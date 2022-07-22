@@ -1,0 +1,10 @@
+frase = input('Digite algo: ')
+
+print(f'Tipo: {type(frase)}')
+print(frase.isalnum())
+print(frase.isupper())
+print(frase.isalpha())
+print(frase.isascii())
+print(frase.islower())
+print(frase.isprintable())
+print(frase.istitle())
