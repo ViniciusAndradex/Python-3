@@ -1,0 +1,13 @@
+nome = input('Qual seu nome?\n')
+print(f'Prazer em te conhecer {nome:20}!')
+print(f'{nome:=^20}')
+
+n1 = int(input('Digite um numero: '))
+n2 = int(input('Digite um numero: '))
+print(f'A soma vale {n1+n2}')
+print(f'A multiplicaçao vale {n1*n2}', end=' - ')
+print(f'A \ndivisao vale {n1/n2:.2f}')
+print(f'A divisao inteira vale {n1//n2}')
+print(f'A exponenciaçao vale {n1**n2}')
+print(f'O resto da divisao vale {n1%n2}')
+print(f'A subtraçao vale {n1 - n2}')

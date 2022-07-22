@@ -1,3 +1,4 @@
+Aula 01 / 05
 Aspas simples para menssagens: ('') ; Toda função tá entre parenteses.
 Concatenar = + ou ,: + string - string e , any.
 
@@ -8,6 +9,7 @@ leitura:
 leitura com tipos primitivos:
     int(input('pergunta'))
 
+Aula 06 / Tipos Primitivos
 Tipos primitivos:
     int : Inteiro
     float : Ponto flutuante
@@ -29,3 +31,28 @@ Funções:
         var.isupper() = esta maiusculo?
         OBS: aind temos muitos outros!
         OBS1: a var é um objeto pois o python trabalha com POO!
+
+Aula 07 / Operadores Aritéticos
+    | + | - | * | / | ** | // | % |  "==" <- IGUAL
+    Precedência:
+       1 | () |
+       2 | ** |
+       3 | *  | / | // | % |
+       4 | +  | - |
+
+    Operadores com Strings:
+        É possível utilizar do artificios da multiplicação (*) como um multiplicador de string.
+        Exemplo: print('Oi' * 5)
+
+    Alinhamentos:
+        {var:>20}: Exibe o var em 20 espaços a direita
+        {var:<20}: Exibe o var em 20 espaços a esquerda
+        {var:^20}: Exibe o var em 20 espaços e deixa no meio a var
+        {var:=^20}: Exibe o var em 20 espaços com '='ao redor da var ou de acordo com a posição escolhida.
+
+    Quebra ou não de linha:
+        print('afsafa', end=' o que estiver aqui dentro aparece no lugar de quebrar a proxima')
+    OBS: Em python o limite de um tipo primitivo é o tamanho da memória do pc.
+    OBS1: Também é possível utilizar funções internas como o pow(a,2) porém a ordem de precedência é
+            quebrada.
+    Dica: Crie uma var com resultado somente se esse valor for ser reutilizado caso não, não crie!!
