@@ -1,0 +1,7 @@
+Aspas simples para menssagens: ('') ; Toda função tá entre parenteses.
+Concatenar = + ou ,: + string - string e , any.
+
+Variáveis: 
+(Objeto)identificador = 'informaãço'
+leitura:
+identificador = input('pergunta')
