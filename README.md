@@ -1,2 +1,3 @@
 # Python-3
- Curso do Professor Guanabara (Curso em Video)
+O curso será feito com  a inteção de evoulir os meu conhecimentos em python com o intuito de evouir para 
+python no back-end de projetos.
