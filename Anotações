@@ -28,3 +28,4 @@ Funções:
         var.isalnum() = é letra e numero?
         var.isupper() = esta maiusculo?
         OBS: aind temos muitos outros!
+        OBS1: a var é um objeto pois o python trabalha com POO!
