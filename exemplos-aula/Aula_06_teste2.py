@@ -1,0 +1,8 @@
+n1 = float(input('Digite um valor: '))
+n = input('Digite: ')
+print(n1)
+print(n)
+print(n.isnumeric())
+print(n.isupper())
+print(n.isalpha())
+print(n.isalnum())

@@ -2,6 +2,29 @@ Aspas simples para menssagens: ('') ; Toda função tá entre parenteses.
 Concatenar = + ou ,: + string - string e , any.
 
 Variáveis: 
-(Objeto)identificador = 'informaãço'
+    (Objeto)identificador = 'informaãço'
 leitura:
-identificador = input('pergunta')
+    identificador = input('pergunta')
+leitura com tipos primitivos:
+    int(input('pergunta'))
+
+Tipos primitivos:
+    int : Inteiro
+    float : Ponto flutuante
+    bool : True || False
+    str : String
+
+Prints:
+    print('ola {}'.format(s))
+    print('Ola' + s)
+    print('Ola', ola)
+    print(f'Ola {s}') //A melhor!!!
+
+Funções:
+    type(): O tipo primitivo da variavel
+    Métodos de teste de tipo:
+        var.isNumeric() = é possivel converter para numero?
+        var.isalpha()= é letra?
+        var.isalnum() = é letra e numero?
+        var.isupper() = esta maiusculo?
+        OBS: aind temos muitos outros!
