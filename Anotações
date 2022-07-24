@@ -76,5 +76,7 @@ Aula 07 / Operadores Aritéticos
         https://www.python.org/
         - Em documentation é possível ver as bibliotecas padrões para importação.
         - Pypi: Aqui estão disponiveis as bibliotecas da comunidade.
+
+        OBS: é póssivel mascarar uma var na hora de imprimir com int() por exemplo.
         OBS: estudar a classe random.
         OBS: Em settings -> project -> python interpreter é possível identificar o que está instalado.
