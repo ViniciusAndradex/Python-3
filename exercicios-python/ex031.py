@@ -1,5 +1,4 @@
 distancia = float(input('Qual a distancia da viagem?\n- '))
-valorFinal = float
 if distancia <= 200:
     valorFinal = distancia * 0.50
 else:
