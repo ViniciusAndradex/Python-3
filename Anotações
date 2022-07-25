@@ -80,3 +80,42 @@ Aula 07 / Operadores Aritéticos
         OBS: é póssivel mascarar uma var na hora de imprimir com int() por exemplo.
         OBS: estudar a classe random.
         OBS: Em settings -> project -> python interpreter é possível identificar o que está instalado.
+
+Manipulando Strings:
+    frase = 'Curso em Video'
+    Fatiamento:
+        frase[9]: 'V'
+        frase[9:13]: 'Vide'
+        frase[9:21]: 'Video Python' //Não é recomendado pois está ultrapassando o range.
+        frase[9:21:2]: 'VdoPto'
+        frase[:5] //ate 5: 'Curso'
+        frase[15:]//ate o final: 'Python'
+        frase[9::3]: 'VePh'
+        OBS: python sempre exclui o ultimo número, ou seja, a faixa de valor sempre é menos 1
+    Analise:
+        len(frase): Comprimento (21).
+        frase.count('o'): contar numero de letras (3).
+        frase.count('o',0,13): contagem de 'o' com o fatiamento (1).
+        frase.fin('deo'): indica a posição da letra inicial da string (11).
+        frase.find('Android'): não existe (-1).
+        [funcionalidade] 'Curso' in frase: indica True or False de acordo com a string analisada (True)
+    Transformação:
+        frase.replace('Python', 'Android'): Substitui a primeira String pela segunda (não permanente, a não ser que uma
+                        String receba), ('Curso em Video Android')
+        frase.upper() //é um método e portanto tem que ter os parênteses.: transforma em maiuscula, ('CURSO EM VIDEO PYTHON')
+        frase.lower(): tranforma em minusculo, ('curso em video python')
+        frase.capitalize: tranforma a primeira letra da primeira palvra em maiuscula o resto em minuscula, (Curso em video python)
+        frase.title(): Analisa o numero de palavra de acordo com os espaços e tranforma a primeira letra de cada um, ('Curso em Video Python')
+
+        frase = '   Aprenda Python   '
+        frase.strip(): exclui espaços inuteis, 'Aprenda Python'
+        frase.rstrip(): exclui espaços inuteis a direita, '   Aprenda Python'
+        frase.lstrip(): exclui espaços inuteis a esquerda, 'Aprenda Python   '
+    Divisão:
+        frase = 'Curso em Video'
+        frase.split(): A cada espaço ele separa as palavras e cada palavra recebe novos indices criando uma lista,
+                        ['Curso', 'em', 'Video', 'Python']
+                            0       1       2       3
+    Junção:
+        '-'.join(frase): com um lista é possivel juntar as palavras através do join, o simbolo entre os parenteses ficaram
+                        na posição de junção dos mesmos,(Curso-em-Video-Python)
