@@ -123,3 +123,11 @@ Aula 9 / Manipulando Strings:
     OBS: Para impressão de frases longas utilize """ 54564654
                                                       456454645"""
     OBS: Strings sõ imutaveis.
+
+Aula 10 / Condições:
+    if condição:
+        bloco
+    else:
+        bloco
+
+    Condição ternária  (Opção de python): print('carro' if tempo <= else 'carro velho')
