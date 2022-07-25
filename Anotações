@@ -51,7 +51,7 @@ Aula 07 / Operadores Aritéticos
         {var:=^20}: Exibe o var em 20 espaços com '='ao redor da var ou de acordo com a posição escolhida.
 
     Quebra ou não de linha:
-        print('afsafa', end=' o que estiver aqui dentro aparece no lugar de quebrar a proxima')
+        print('afsafa', end='' o que estiver aqui dentro aparece no lugar de quebrar a proxima')
 
     OBS: Em python o limite de um tipo primitivo é o tamanho da memória do pc.
     OBS1: Também é possível utilizar funções internas como o pow(a,2) porém a ordem de precedência é
