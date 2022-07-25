@@ -9,7 +9,7 @@ elif idade <= 14:
     print('\033[1;32mCATEGORIA: INFANTIL')
 elif idade <= 19:
     print('\033[1;33mCATEGORIA: JUNIOR')
-elif idade == 20:
+elif idade <= 25:
     print('\033[1;34mCATEGORIA: SÊNIOR')
 else:
     print('\033[1;35mCATEGORIA: MASTER\033[m')
