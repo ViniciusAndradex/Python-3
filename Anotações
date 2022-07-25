@@ -119,3 +119,7 @@ Manipulando Strings:
     Junção:
         '-'.join(frase): com um lista é possivel juntar as palavras através do join, o simbolo entre os parenteses ficaram
                         na posição de junção dos mesmos,(Curso-em-Video-Python)
+
+    OBS: Para impressão de frases longas utilize """ 54564654
+                                                      456454645"""
+    OBS: Strings sõ imutaveis.
