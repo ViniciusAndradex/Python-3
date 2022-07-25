@@ -6,3 +6,4 @@ if jogada == bot:
     print('Você venceu parabéns')
 else:
     print(f'Você perdeu, o bot jogou {bot}')
+    
