@@ -11,7 +11,7 @@ print(frase.count('o')) #Case sensitive
 print(frase.upper().count('O'))
 print(len(frase))
 
-frase = ('   Curos em Video Python   ')
+frase = ('   Curso em Video Python   ')
 print(frase.strip())
 print('-'.join(frase))
 print(frase.replace('Python', 'Android'))
