@@ -96,7 +96,7 @@ Manipulando Strings:
         len(frase): Comprimento (21).
         frase.count('o'): contar numero de letras (3).
         frase.count('o',0,13): contagem de 'o' com o fatiamento (1).
-        frase.fin('deo'): indica a posição da letra inicial da string (11).
+        frase.find('deo'): indica a posição da letra inicial da string (11).
         frase.find('Android'): não existe (-1).
         [funcionalidade] 'Curso' in frase: indica True or False de acordo com a string analisada (True)
     Transformação:
