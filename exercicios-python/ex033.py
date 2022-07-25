@@ -11,4 +11,4 @@ if n < n1 > n2:
     maior = n1
 if n < n2 > n1:
     maior = n2
-print(f'Maior: {maior}\nMenor: {menor}')
+print(f'Maior: \033[1;33m{maior}\033[m\nMenor: \033[1;31;107m{menor}\033[m')
