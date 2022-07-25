@@ -135,3 +135,30 @@ Aula 10 / Condições:
     from datetime import date -> date.today().year -> captura o ano atual da sua máquina
 
     OBS: ''' ''' também é um comentário.
+
+Aula 11 / Cores no terminal
+    ANSI para cores:
+        \033[{codigo das cores{Separado por ;}}m
+        Style:
+            0: none
+            1: negrito
+            4: sublinhado
+            0: inverte
+        Text:
+            30: Branco
+            31: Vermelho
+            32: Verde
+            33: Amarelo
+            34: Azul
+            35: Majenta
+            36: Ciano
+            37: Cinza
+        Back:
+            40: Branco
+            41: Vermelho
+            42: Verde
+            43: Amarelo
+            44: Azul
+            45: Majenta
+            46: Ciano
+            47: Cinza
