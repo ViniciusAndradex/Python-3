@@ -33,4 +33,6 @@ elif jogador == 3:
         print(f'\033[1;34mYOU WIN, bot {jogos[bot]}')
     else:
         print('\033[1;33mDRAW')
+else:
+    print('OPÇÃO INVALIDA')
 print('\033[1;35;40mTHANK YOU FOR PLAY MY GAME!\033[m')

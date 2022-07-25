@@ -8,5 +8,7 @@ if menu == 1:
     print(f'{decimal} -> BINARIO: {bin(decimal)[2:]}')
 elif menu == 2:
     print(f'{decimal} -> OCTAL: {oct(decimal)[2:]}')
-else:
+elif menu == 3:
     print(f'{decimal} -> HEXADECIMAL: {hex(decimal)[2:]}')
+else:
+    print('OPÇÃO INVALIDA')
