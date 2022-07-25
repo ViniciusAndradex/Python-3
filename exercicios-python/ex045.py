@@ -29,8 +29,6 @@ if jogador == 1:
         print(f'\033[1;36mYOU LOSE')
     elif bot == 3:
         print(f'\033[1;34mYOU WIN')
-    else:
-        print('INVALIDO')
 elif jogador == 2:
     if bot == 1:
         print(f'\033[1;34mYOU WIN')
@@ -38,8 +36,6 @@ elif jogador == 2:
         print('\033[1;33mDRAW')
     elif bot == 3:
         print(f'\033[1;36mYOU LOSE')
-    else:
-        print('INVALIDO')
 elif jogador == 3:
     if bot == 1:
         print(f'\033[1;36mYOU LOSE')
@@ -47,8 +43,6 @@ elif jogador == 3:
         print(f'\033[1;34mYOU WIN')
     elif bot == 3:
         print('\033[1;33mDRAW')
-    else:
-        print('INVALIDO')
 else:
     print('OPÇÃO INVALIDA')
 print('\033[1;35;40mTHANK YOU FOR PLAY MY GAME!\033[m')
