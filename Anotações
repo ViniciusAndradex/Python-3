@@ -131,4 +131,7 @@ Aula 10 / Condições:
         bloco
 
     Condição ternária  (Opção de python): print('carro' if tempo <= else 'carro velho')
+
+    from datetime import date -> date.today().year -> captura o ano atual da sua máquina
+
     OBS: ''' ''' também é um comentário.
