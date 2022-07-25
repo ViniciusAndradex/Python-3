@@ -81,7 +81,7 @@ Aula 07 / Operadores Aritéticos
         OBS: estudar a classe random.
         OBS: Em settings -> project -> python interpreter é possível identificar o que está instalado.
 
-Manipulando Strings:
+Aula 9 / Manipulando Strings:
     frase = 'Curso em Video'
     Fatiamento:
         frase[9]: 'V'
