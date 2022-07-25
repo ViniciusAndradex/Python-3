@@ -11,6 +11,12 @@ elif menu == 2:
     totPagar = preco - (preco * 5 / 100)
 elif menu == 3:
     totPagar = preco
-else:
+    print(f'Sua compra será parcelada em 2x de R${totPagar / 2:.2f}')
+elif menu == 4:
     totPagar = preco + (preco * 20 / 100)
+    numParcela = int(input('Em quantas vezes?\n- '))
+    print(f'Sua compra será parcelada em {numParcela}x de R${totPagar / numParcela:.2f}')
+else:
+    totPagar = preco
+    print('OPÇÃO INVALIDA DE PAGAMENTO, TENTE NOVAMENTE!')
 print(f'\033[1;30mTotal a pagar \033[1;31mR${totPagar:.2f}\033[m')
