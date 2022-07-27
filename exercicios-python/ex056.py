@@ -12,7 +12,7 @@ for c in range(1, 5):
         if idadeVelho < idade:
             idadeVelho = idade
             nomeVelho = nome
-    if sexo[0] == 'F' and idade < 20:
+    if sexo[0] == 'F' and idade < 20: # Poderia se utilizar do in 'Ff' no lugar de por o .upper
         qtdMulher += 1
     if c == 4:
         media = media / c
