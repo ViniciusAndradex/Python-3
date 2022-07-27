@@ -1,5 +1,7 @@
-n = 0
+acumulador = 0
+contador = 0
 for c in range(1, 6 + 1):
     if c % 2 == 0:
-        n += c
-print(f'A soma dos pares é {n}')
+        acumulador += c
+        contador += 1
+print(f'A soma dos {contador} números pares é {acumulador}')
