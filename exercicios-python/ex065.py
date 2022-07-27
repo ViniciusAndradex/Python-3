@@ -12,9 +12,10 @@ while resp != 'N':
     media += num
     cont += 1
     while resp != 'S' and resp != 'N':
-        resp = str(input('Deseja Continuar [S/N]?\n-  ')).strip().upper()
+        resp = str(input('Deseja Continuar [S/N]?\n-  ')).strip().upper()[0]
     if resp in 'S':
         resp = ''
     else:
         media /= cont
-print(f'Maior: {maior}\nMenor: {menor}\nMedia: {media}')
+print()
+print(f'Numeros digitados: {cont}\nMaior: {maior}\nMenor: {menor}\nMedia: {media:.2f}')
