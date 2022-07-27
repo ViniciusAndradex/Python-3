@@ -162,10 +162,15 @@ Aula 11 / Cores no terminal
             45: Majenta
             46: Ciano
             47: Cinza
+
 Aula 12 / Condições Aninhadas:
     if condição:
         bloco
     elif condição:
         bloco
     else:
+        bloco
+
+Aula 13 / Estrutura de repetição for:
+    for c in range(n, n - 1):
         bloco
