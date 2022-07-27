@@ -7,4 +7,4 @@ for c in range(1, 6):
         maior = peso
     elif menor > peso:
         menor = peso
-print(f'Mais pesado: {maior}\nMais leve: {menor}')
+print(f'Mais pesado: {maior}Kg\nMais leve: {menor}Kg')
