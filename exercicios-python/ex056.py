@@ -17,4 +17,4 @@ for c in range(1, 5):
     if c == 4:
         media = media / c
     print()
-print(f'Media de Idade: {media}\nHomem mais velho: {idadeVelho}, {nomeVelho}\nMulheres menores de 20: {qtdMulher}')
+print(f'Media de Idade: {media}\nHomem mais velho: {idadeVelho} anos, {nomeVelho}\nMulheres menores de 20: {qtdMulher}')
