@@ -8,7 +8,7 @@ for c in range(1, primo + 1):
     else:
         print(f'{c}', end=' ')
 print()
-if somaPrimo > 2:
+if somaPrimo != 2:
     print(f'\033[4;33m{primo}\033[m não é primo!')
 else:
     print(f'\033[4;32m{primo}\033[m é primo!')

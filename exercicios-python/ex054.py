@@ -1,5 +1,4 @@
 from datetime import date
-
 maior = menor = 0
 for c in range(1, 8):
     data = int(input('Digite seu ano de nascimento: '))
