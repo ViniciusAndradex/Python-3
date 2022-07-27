@@ -5,6 +5,8 @@ while num >= 1:
     print(f'{num}', end=' ')
     if num != 1:
         print(end='* ')
+    else:
+        print(end='= ')
     fact *= num
     num -= 1
-print(f' = {fact}')
+print(f'{fact}')
