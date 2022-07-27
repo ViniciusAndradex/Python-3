@@ -1,8 +1,6 @@
 from datetime import date
 
-media = 0
-idadeVelho = 0
-qtdMulher = 0
+media = idadeVelho = qtdMulher = 0
 nomeVelho = ''
 for c in range(1, 5):
     nome = str(input('Digite seu nome: ')).strip()
