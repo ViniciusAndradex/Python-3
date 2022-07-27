@@ -16,8 +16,10 @@ while menu != 5:
     elif menu == 3:
         if n > n1:
             print(f'{n} é maior que {n1}')
-        else:
+        elif n1 > n:
             print(f'{n1} é maior que {n}')
+        else:
+            print(f'Ambos são {n}')
     elif menu == 4:
         n = int(input('Digite um valor: '))
         n1 = int(input('Digite outro valor: '))
