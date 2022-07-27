@@ -21,6 +21,7 @@ while menu != 5:
         else:
             print(f'Ambos são {n}')
     elif menu == 4:
+        print('Informe novamente os números:')
         n = int(input('Digite um valor: '))
         n1 = int(input('Digite outro valor: '))
     elif menu == 5:
