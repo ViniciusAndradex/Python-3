@@ -173,6 +173,8 @@ Aula 12 / Condições Aninhadas:
 
 Aula 13 / Estrutura de repetição for:
     ATUALIZAÇÃO: https://host2b.net/como-instalar-o-python-3-9-no-ubuntu-20-04/
-    
+
     for c in range(n, n - 1):
+        bloco
+    for c in range (n, n, incremento se quiser): (decrescente)
         bloco
