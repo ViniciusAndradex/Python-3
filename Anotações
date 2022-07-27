@@ -178,3 +178,7 @@ Aula 13 / Estrutura de repetição for:
         bloco
     for c in range (n, n, incremento se quiser): (decrescente)
         bloco
+
+Aula 14 / Estrutura de repetição while:
+    while condiçao:
+        bloco
