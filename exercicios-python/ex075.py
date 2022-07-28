@@ -2,7 +2,7 @@ tupla = (int(input('Digite um número: ')), int(input('Digite um número: ')), i
          int(input('Digite um número: ')))
 print(f'Valores digitados: {tupla}')
 print(f'Valor 9 foi digitado {tupla.count(9)} vezes.')
-if tupla.index(3) >= 0:
+if 3 in tupla:
     print(f'O número 3 apareceu na {tupla.index(3) + 1}° posição')
 else:
     print('O número 3 não apareceu em nenhuma posição')
