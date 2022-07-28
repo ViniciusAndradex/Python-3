@@ -1,6 +1,8 @@
 qtdMaiores = qtdHomens = qtdMulheresMenor18 = 0
 print('-' * 30)
 while True:
+    resp = ''
+    sexo = ''
     idade = int(input('Digite sua idade: '))
     while True:
         sexo = str(input('Sexo [F/M]: ')).strip().upper()[0]
@@ -21,8 +23,6 @@ while True:
     if resp in 'N':
         print(f'{" FIM DO PROGRAMA ":=^30}')
         break
-    resp = ''
-    sexo = ''
 print(f'Pessoa com mais de 18: \033[1;32m{qtdMaiores}\033[m')
 print(f'Total de homens: \033[1;34m{qtdHomens}\033[m')
 print(f'Total de mulher menores de 20 anos: \033[1;36m{qtdMulheresMenor18}\033[m')
