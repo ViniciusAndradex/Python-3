@@ -6,6 +6,7 @@ while True:
     print(f'{"VAMOS JOGAR PAR OU IMPAR":^58}')
     print('=-' * 30)
     bot = randrange(0, 11)
+    jogada = ''
     while True:
         jogada = str(input('PAR OU IMPAR [P/I]: ')).strip().upper()[0]
         if jogada in 'PI':
@@ -38,7 +39,6 @@ while True:
         else:
             print('Você PERDEU!')
             break
-    jogada = ''
 print('=-' * 30)
 if win == 1:
     print(f'GAME OVER! Você venceu {win} vez.')
