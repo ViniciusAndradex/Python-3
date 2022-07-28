@@ -2,7 +2,6 @@ qtdMaiores = qtdHomens = qtdMulheresMenor18 = 0
 print('-' * 30)
 while True:
     idade = int(input('Digite sua idade: '))
-    sexo = ''
     while True:
         sexo = str(input('Sexo [F/M]: ')).strip().upper()[0]
         if sexo in 'FM':
@@ -14,7 +13,6 @@ while True:
         qtdHomens += 1
     if sexo in 'F' and idade < 20:
         qtdMulheresMenor18 += 1
-    resp = ''
     while True:
         resp = str(input('Deseja continuar? [S/N] ')).strip().upper()
         if resp in 'SN':
