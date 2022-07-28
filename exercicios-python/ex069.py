@@ -23,6 +23,6 @@ while True:
         break
     resp = ''
     sexo = ''
-print(f'Pessoa com mais de 18: {qtdMaiores}')
-print(f'Total de homens: {qtdHomens}')
-print(f'Total de mulher menores de 20 anos: {qtdMulheresMenor18}')
+print(f'Pessoa com mais de 18: \033[1;32m{qtdMaiores}\033[m')
+print(f'Total de homens: \033[1;34m{qtdHomens}\033[m')
+print(f'Total de mulher menores de 20 anos: \033[1;36m{qtdMulheresMenor18}\033[m')
