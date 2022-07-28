@@ -5,7 +5,7 @@ print('=-' * 30)
 while True:
     print(f'{"VAMOS JOGAR PAR OU IMPAR":^58}')
     print('=-' * 30)
-    bot = randrange(1, 101)
+    bot = randrange(1, 11)
     while True:
         jogada = str(input('PAR OU IMPAR [P/I]: ')).strip().upper()[0]
         if jogada in 'PI':
