@@ -1,6 +1,6 @@
 while True:
     saque = int(input('Quanto deseja sacar? R$'))
-    if saque > 50:
+    if saque != 50:
         notas = saque // 50
         if notas > 0:
             print(f'Total de {notas} cédulas de \033[1;31mR${50}\033[m')
