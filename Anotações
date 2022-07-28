@@ -199,6 +199,8 @@ Aula 16 / Variaveis Compostas - Tuplas:
         index(item) #OBS: Caso exista mais de um item ele apresenta o indice do primeiro
         index(item, deslocamento) # Deslocamento indica de onde ele deve começar a procurar
         del coleção # único método que consegue mutar as tuplas.
+        min()
+        max()
     Laço:
         for c in lanche: <- vai percorrer todos os elementos de lanche (for-each)
         Apresentação:
