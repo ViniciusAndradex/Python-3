@@ -24,7 +24,6 @@ while True:
         if jogada in 'P':
             print('Você VENCEU!')
             win += 1
-            print('-' * 30)
         else:
             print('Você PERDEU!')
             break
@@ -35,11 +34,11 @@ while True:
         if jogada in 'I':
             print('Você VENCEU!')
             win += 1
-            print('-' * 30)
         else:
             print('Você PERDEU!')
             break
     print('Vamos jogar novamente...')
+    print('-' * 30)
 print('=-' * 30)
 if win == 1:
     print(f'GAME OVER! Você venceu {win} vez.')
