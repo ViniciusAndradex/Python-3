@@ -8,6 +8,7 @@ while True:
         prodMaior1000 += 1
     if maisBarato == 0:
         maisBarato = preco
+        produtoMaisBarato = produto
     else:
         if maisBarato > preco:
             maisBarato = preco
@@ -21,4 +22,4 @@ while True:
         break
 print(f'Total comprado: R$\033[1;35m{totalCompra:.2f}\033[m')
 print(f'Produtos que valeram mais de R$1000.00: \033[1;34m{prodMaior1000}\033[m')
-print(f'Produto mais barato: \033[1;31m{produtoMaisBarato}\033[m por R$\033[1;32m{maisBarato:.2f}\033[m')
+print(f'Produto mais barato: \033[1;33m{produtoMaisBarato}\033[m por R$\033[1;32m{maisBarato:.2f}\033[m')
