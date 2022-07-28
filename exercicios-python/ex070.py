@@ -6,13 +6,9 @@ while True:
     totalCompra += preco
     if preco > 1000.0:
         prodMaior1000 += 1
-    if maisBarato == 0:
+    if maisBarato == 0 or maisBarato > preco:
         maisBarato = preco
         produtoMaisBarato = produto
-    else:
-        if maisBarato > preco:
-            maisBarato = preco
-            produtoMaisBarato = produto
     while True:
         resp = str(input('Deseja continuar? [S/N]')).strip().upper()[0]
         if resp in 'SN':
