@@ -188,3 +188,32 @@ Aula 15 / Interrompendo repetições while:
         while True:
             bloco
                 break (encerra o loop)
+
+Aula 16 / Variaveis Compostas - Tuplas:
+    Indice: 0-n
+    Acesso: VAR[fatiamento]
+    Métodos:
+        len()
+        sorted()
+        count()
+        index(item) #OBS: Caso exista mais de um item ele apresenta o indice do primeiro
+        index(item, deslocamento) # Deslocamento indica de onde ele deve começar a procurar
+        del coleção # único método que consegue mutar as tuplas.
+    Laço:
+        for c in lanche: <- vai percorrer todos os elementos de lanche (for-each)
+        Apresentação:
+            for cont in range(0, len(lanche)):
+                print(f' 1 - Eu vou comer {lanche[cont]}, na posição {cont}')
+            for c in lanche:
+                print(f'2 - Eu vou comer {c}')
+            for pos, c in enumerate(lanche):
+                print(f'2 - Eu vou comer {c}, na posição {pos}')
+    Declaração:
+        var = ('', '', '')
+    Utilities:
+        a = (1, 2)
+        b = (2, 3)
+        c = a + b ->>>>>> (1, 2, 2, 3) <--- cria uma terceira juntando mas não modifica as existentes, a ordem importa.
+    OBS: As tuplas são imutáveis, definido no começo a coleção permanece.
+    OBS: No python 3 não tem mais a necessidade de por () para criar tuplas, porém, fica mais explicito em caso de
+         dúvidas.
