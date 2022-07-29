@@ -188,7 +188,7 @@ Aula 15 / Interrompendo repetições while:
         while True:
             bloco
                 break (encerra o loop)
-VARIAVEIS COMPOSTAS:
+                
 Aula 16 / Variaveis Compostas - Tuplas:
     Indice: 0-n
     Acesso: VAR[fatiamento]
