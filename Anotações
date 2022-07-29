@@ -269,6 +269,7 @@ Aula 19 / Dicionario:
     Métodos:
         dados['sexo'] = 'M'
         del dados['idade']
+        dict.copy()
         Exemplo:
             filme = {'titulo': 'Star Wars', 'ano': 1977, 'diretor': 'George Lucas'}
             print(filme.values()) <- Valores!
@@ -278,6 +279,12 @@ Aula 19 / Dicionario:
     Estruturas:
         for k, v in filme.items():
             print(f'O (k) é (v)') <- k = identificador e v = valores
+        for e in brasil1:
+            print(f'{e["sigla"]}: {e["uf"]}')
+            for k, v in e.items():
+                print(f'        {k}: {v}')
 
         locadora = [filme] uma lista de dicionarios.
         print(locadora[0]['ano]')
+    OBS: para criarmos listas de dicionarios é necessário passar uma copia para a lista ou então haverá uma ligação e
+         ficara tudo igual.
