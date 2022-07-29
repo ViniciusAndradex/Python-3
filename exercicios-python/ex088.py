@@ -18,5 +18,5 @@ for num in range(0, numSorteio):
 print(f'{f" SORTEANDO {numSorteio} JOGOS ":-^40}')
 for jogadas in range(0, numSorteio):
     print(f'Jogo {jogadas + 1:2}: {sorted(sorteados[jogadas])}')
-    sleep(0.5)
+    sleep(1)
 print(f'{f" < BOA SORTE! > ":-^40}')
