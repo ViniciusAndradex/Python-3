@@ -3,15 +3,14 @@ from time import sleep
 sorteados = list()
 sorteio = list()
 numSorteio = int(input('Quantos jogos você quer que eu sorteie? '))
-cont = 0
 for num in range(0, numSorteio):
+    cont = 0
     while True:
         x = randint(1, 60)
         if x not in sorteio:
             sorteio.append(x)
             cont += 1
         if cont >= 6:
-            cont = 0
             break
     sorteados.append(sorteio[:])
     sorteio.clear()
