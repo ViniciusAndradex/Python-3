@@ -258,3 +258,4 @@ Aula 18 / Lista (Parte 2):
         print(pessoa[1]) <- ['Mario', 32]
     Métodos:
         lista.clear(): apaga os itens da lista.
+        sorted(lista)
