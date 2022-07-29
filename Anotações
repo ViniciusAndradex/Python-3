@@ -188,7 +188,7 @@ Aula 15 / Interrompendo repetições while:
         while True:
             bloco
                 break (encerra o loop)
-
+VARIAVEIS COMPOSTAS:
 Aula 16 / Variaveis Compostas - Tuplas:
     Indice: 0-n
     Acesso: VAR[fatiamento]
@@ -259,3 +259,5 @@ Aula 18 / Lista (Parte 2):
     Métodos:
         lista.clear(): apaga os itens da lista.
         sorted(lista)
+
+Aula 19 / Dicionario:
