@@ -219,3 +219,28 @@ Aula 16 / Variaveis Compostas - Tuplas:
     OBS: As tuplas são imutáveis, definido no começo a coleção permanece.
     OBS: No python 3 não tem mais a necessidade de por () para criar tuplas, porém, fica mais explicito em caso de
          dúvidas.
+
+Aula 17 / Listas:
+    Declaração:
+        var = [] ou list()
+    Métodos:
+        var.append(): Adiciona ao final da lista.
+        var.insert(pos, item): Adiciona na posição
+        del var[pos]: elimina posição.
+        var.pop(): Elimina o último elemento, se quiser pode adicionar o index quqe quer eliminar.
+        var.remove(conteúdo): remove o elemento, caso tenha mais de um elemento elimina o primeiro.
+        var.sort(): Organiza a lista.
+        var.sort(reverse=True): Lista organizada ao contrário.
+        len(var)
+        Copiar listas:
+            a = [1, 2]
+            b = a[:]
+        OBS: O python já ajeita os index.
+    Estruturas:
+        if conteudo in var:
+            var.remove(conteudo) <- utilizado para evitar erros, como por exemplo o conteudo não estar na lista
+        ranges:
+            var = list(range(4, 11)) <- cria a lista com os valores de range.
+    OBS: Listas são mutavéis.
+    OBS: As em python ao atribuir uma lista a outra você não está copiando uma para a outra na realidade você está
+         ligando as duas.
