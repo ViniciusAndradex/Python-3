@@ -12,7 +12,6 @@ print('=' * 10)
 for p in matriz:
     for d in range(0, len(p)):
         print(f'[{p[d]:^5}]', end='')
-
     print()
 print('=' * 10)
 print(f'A soma dos valores pares é {par}')
