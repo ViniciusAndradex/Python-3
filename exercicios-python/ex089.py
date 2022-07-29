@@ -1,17 +1,16 @@
 from time import sleep
 doc = list()
 alunos = list()
-notas = [[], []]
+notas = list()
 while True:
     alunos.append(str(input('Nome: ')))
-    notas[0].append(float(input('Nota 1: ')))
-    notas[0].append(float(input('Nota 2: ')))
-    notas[1].append((notas[0][0] + notas[0][1]) / 2.0)
+    notas.append(float(input('Nota 1: ')))
+    notas.append(float(input('Nota 2: ')))
     alunos.append(notas[:])
+    alunos.append((notas[0] + notas[1]) / 2.0)
     doc.append(alunos[:])
     alunos.clear()
     notas.clear()
-    notas = [[], []]
     while True:
         resp = str(input('Quer continuar? [S/N] ')).strip().upper()
         if resp in 'SN':
@@ -22,7 +21,7 @@ print('-=' * 15)
 print(f'{"No.":4}{"NOME":15}{"MÉDIA":5}')
 print('-' * 30)
 for pos, li in enumerate(doc):
-    print(f'{pos:<4}{li[0]:16}{li[1][1][0]:.1f}')
+    print(f'{pos:<4}{li[0]:16}{li[2]:.1f}')
 print('-=' * 15)
 sleep(1)
 while True:
@@ -34,7 +33,7 @@ while True:
         print('FINALIZANDO...')
         sleep(1)
         break
-    print(f'Notas de {doc[mostrarNota][0]} são {doc[mostrarNota][1][0]}')
+    print(f'Notas de {doc[mostrarNota][0]} são {doc[mostrarNota][1]}')
     print('-=' * 15)
     sleep(1)
 print('<<< VOLTE SEMPRE >>>')
