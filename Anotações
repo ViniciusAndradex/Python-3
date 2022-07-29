@@ -188,7 +188,7 @@ Aula 15 / Interrompendo repetições while:
         while True:
             bloco
                 break (encerra o loop)
-                
+
 Aula 16 / Variaveis Compostas - Tuplas:
     Indice: 0-n
     Acesso: VAR[fatiamento]
@@ -261,3 +261,23 @@ Aula 18 / Lista (Parte 2):
         sorted(lista)
 
 Aula 19 / Dicionario:
+    Declaração: {}, dict
+        dados = ['Pedro', 25]
+        d = {'nome': 'Pedro, 'idade': 25}
+        print(d['nome'])
+        print(d['idade'])
+    Métodos:
+        dados['sexo'] = 'M'
+        del dados['idade']
+        Exemplo:
+            filme = {'titulo': 'Star Wars', 'ano': 1977, 'diretor': 'George Lucas'}
+            print(filme.values()) <- Valores!
+            print(filme.keys()) <- identificador!
+            print(filme.items()) <- os dois!
+            OBS: Key ou chave: Nome do identificador.
+    Estruturas:
+        for k, v in filme.items():
+            print(f'O (k) é (v)') <- k = identificador e v = valores
+
+        locadora = [filme] uma lista de dicionarios.
+        print(locadora[0]['ano]')
