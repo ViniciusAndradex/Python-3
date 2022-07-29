@@ -244,3 +244,17 @@ Aula 17 / Listas:
     OBS: Listas são mutavéis.
     OBS: As em python ao atribuir uma lista a outra você não está copiando uma para a outra na realidade você está
          ligando as duas.
+
+Aula 18 / Lista (Parte 2):
+    Declaração Listas dentro de Listas:
+        lista.append(lista2[:]) <- copia uma lista dentro de um lista.
+        Representação manual:
+            pessoa = [['João', 25], ['Mario', 32]]
+                        [0     1]       [0      1]
+                        [   0   ]      [   1    ]
+    Dados:
+        print(pessoa[0][0]) <- joão
+        print(pessoa[1][0]) <- 25
+        print(pessoa[1]) <- ['Mario', 32]
+    Métodos:
+        lista.clear(): apaga os itens da lista.
