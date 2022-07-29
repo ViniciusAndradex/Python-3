@@ -4,7 +4,6 @@ for item in range(0, 5):
     if item == 0 or num > lista[-1]:
         lista.append(num)
         print('Adicionado ao final...')
-
     else:
         for pos, c in enumerate(lista):
             if c > num:
