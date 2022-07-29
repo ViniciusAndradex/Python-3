@@ -8,6 +8,7 @@ for lin in range(0, 3):
         if col == 2:
             terceiraC += matriz[lin][col]
 print('=' * 10)
+# Apresentação
 for p in matriz:
     for d in range(0, len(p)):
         print(f'[{p[d]:^5}]', end='')
