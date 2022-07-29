@@ -11,6 +11,6 @@ for num in range(0, numSorteio):
 # Apresentação
 print(f'{f" SORTEANDO {numSorteio} JOGOS ":-^40}')
 for jogadas in range(0, numSorteio):
-    print(f'Jogo {jogadas + 1}: {sorteados[jogadas]}')
+    print(f'Jogo {jogadas + 1:2}: {sorteados[jogadas]}')
     sleep(0.5)
 print(f'{f" < BOA SORTE! > ":-^40}')
