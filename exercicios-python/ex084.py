@@ -1,8 +1,16 @@
 pessoas = list()
 cadastro = list()
+maior = menor = 0
 while True:
     cadastro.append(str(input('Nome: ')))
     cadastro.append(float(input('Peso: ')))
+    if maior == 0:
+        menor = maior = cadastro[1]
+    else:
+        if maior < cadastro[1]:
+            maior = cadastro[1]
+        if menor > cadastro[1]:
+            menor = cadastro[1]
     pessoas.append(cadastro[:])
     cadastro.clear()
     while True:
@@ -11,17 +19,8 @@ while True:
             break
     if resp == 'N':
         break
-print(f'Ao todo, você cadastrou {len(pessoas)}')
-maior = menor = 0
-for p in pessoas:
-    if maior == 0:
-        menor = maior = p[1]
-    else:
-        if maior < p[1]:
-            maior = p[1]
-        if menor > p[1]:
-            menor = p[1]
 print('-' * 20)
+print(f'Ao todo, você cadastrou {len(pessoas)} pessoas')
 print(f'O maior peso foi de {maior}kg. Peso de ', end='')
 for p in pessoas:
     if p[1] == maior:
