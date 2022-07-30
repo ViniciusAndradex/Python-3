@@ -270,6 +270,10 @@ Aula 19 / Dicionario:
         dados['sexo'] = 'M'
         del dados['idade']
         dict.copy()
+        sorted(dict.items(), key=itemgetter[import operator](posição para comparação)): Desta forma ele ordena na crescente
+        sorted(dict.items(), key=itemgetter[import operator](posição para comparação), reverse=True):
+        desta forma ele ordena na decrescente
+        OBS: Resultado est'a em forma de lista!
         Exemplo:
             filme = {'titulo': 'Star Wars', 'ano': 1977, 'diretor': 'George Lucas'}
             print(filme.values()) <- Valores!
