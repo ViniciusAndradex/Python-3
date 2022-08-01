@@ -6,9 +6,10 @@ while True:
     njogos = int(input(f'Quantas partidas {aproveitamento["nome"]} jogou?\n- '))
     for c in range(0, njogos):
         ngols.append(int(input(f'Quantos gols na partida {c + 1}? ')))
-    aproveitamento['gols'] = ngols
+    aproveitamento['gols'] = ngols[:]
     aproveitamento['total'] = sum(ngols)
     tabela.append(aproveitamento.copy())
+    ngols.clear()
     aproveitamento.clear()
     while True:
         resp = str(input('Deseja continuar? [S/N] ')).strip().upper()[0]
@@ -19,8 +20,11 @@ while True:
         break
 print(f'cod {"nome":15}{"gols":15}{"Total":15}')
 print('-' * 43)
-for pos, li in enumerate(tabela):
-    print(f'{pos: >3} {li["nome"]: <15}{li["gols"]}{li["total"]: >15}')
+for pos, v in enumerate(tabela):
+    print(f'{pos:>3} ', end='')
+    for d in v.values():
+        print(f'{str(d):<15}', end='')
+    print()
 print('-' * 43)
 while True:
     while True:
