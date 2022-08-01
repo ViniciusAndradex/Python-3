@@ -29,7 +29,7 @@ print('-' * 43)
 while True:
     while True:
         opc = int(input('Mostrar dados de qual jogador? (999 para parar)'))
-        if opc > len(tabela) and opc != 999 or len(tabela) == 1 and opc == 1:
+        if opc >= len(tabela) and opc != 999:
             print(f'ERRO! NÃO EXISTE JOADOR COM CÓDIGO {opc}! TENTE NOVAMENTE')
             print('-' * 43)
         else:
