@@ -4,7 +4,7 @@ njogos = int(input(f'Quantas partidas {aproveitamento["nome"]} jogou?\n- '))
 ngols = list()
 for c in range(0, njogos):
     ngols.append(int(input(f'Quantos gols na partida {c}? ')))
-aproveitamento['gols'] = ngols
+aproveitamento['gols'] = ngols[:]
 aproveitamento['total'] = sum(ngols)
 print('-' * 35)
 print(aproveitamento)
