@@ -5,7 +5,7 @@ while True:
     njogos = int(input(f'Quantas partidas {aproveitamento["nome"]} jogou?\n- '))
     ngols = list()
     for c in range(0, njogos):
-        ngols.append(int(input(f'Quantos gols na partida {c}? ')))
+        ngols.append(int(input(f'Quantos gols na partida {c + 1}? ')))
     aproveitamento['gols'] = ngols
     aproveitamento['total'] = sum(ngols)
     tabela.append(aproveitamento.copy())
@@ -35,5 +35,5 @@ while True:
         break
     print(f'-- LEVANTAMENTO DO JOGADOR {tabela[opc]["nome"]}')
     for pos, val in enumerate(tabela[opc]['gols']):
-        print(f'    No jogo {pos} fez {val} gols.')
+        print(f'    No jogo {pos + 1} fez {val} gols.')
     print('-' * 43)
