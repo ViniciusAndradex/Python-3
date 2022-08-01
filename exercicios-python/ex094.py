@@ -31,6 +31,6 @@ print('\n- Lista das pessoas que estão acima da média: ')
 for li in livrodeouro:
     if li['idade'] > media:
         for k, v in li.items():
-            print(f'    {k} = {v}', end='; ')
+            print(f'{k} = {v}', end='; ')
         print()
 print('<<< ENCERRADO >>>')
