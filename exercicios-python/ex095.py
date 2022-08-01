@@ -1,9 +1,9 @@
 aproveitamento = dict()
 tabela = list()
+ngols = list()
 while True:
     aproveitamento['nome'] = str(input('Nome do Jogador: ')).strip().capitalize()
     njogos = int(input(f'Quantas partidas {aproveitamento["nome"]} jogou?\n- '))
-    ngols = list()
     for c in range(0, njogos):
         ngols.append(int(input(f'Quantos gols na partida {c + 1}? ')))
     aproveitamento['gols'] = ngols
