@@ -29,7 +29,7 @@ for li in livrodeouro:
         print(li['nome'], end=' ')
 print('\n- Lista das pessoas que estão acima da média: ')
 for li in livrodeouro:
-    if li['idade'] > media:
+    if li['idade'] >= media:
         for k, v in li.items():
             print(f'{k} = {v}', end='; ')
         print()
