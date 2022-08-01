@@ -292,3 +292,4 @@ Aula 19 / Dicionario:
         print(locadora[0]['ano]')
     OBS: para criarmos listas de dicionarios é necessário passar uma copia para a lista ou então haverá uma ligação e
          ficara tudo igual.
+    OBS: Para a utilização de data também é possível utilizar o datetime.now().year
