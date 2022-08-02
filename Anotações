@@ -335,6 +335,7 @@ Aula 21 / Funções (Parte 2)
             Tudo oque está aqui dentro será impresso no meu help
             o que facilita na utilização de terceiros.
             """
+        help(var)
     Parâmetros Opcionais:
         Conceito:
             Consiste em inicializar meu parâmetros com o objetivo dele não quebrar caso algum
