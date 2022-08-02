@@ -13,7 +13,7 @@ def maior(* num):
         sleep(0.5)
     print(f'Foram informados {len(num)} valores ao todo.')
     if len(num) == 0:
-        print(f'O maior valor informado foi 0.')
+        print(f'O maior valor informado foi {len(num)}.')
     else:
         print(f'O maior valor informado foi {max(num)}.')
 
