@@ -17,7 +17,11 @@ def contador(inicio, fim, passo):
         elif passo < 0:
             passo = abs(passo)
     print(f'Contagem de {inicio} até {fim} de {abs(passo)} em {abs(passo)}')
-    for c in range(inicio, fim - 1, passo):
+    if fim < 0:
+        fim -= 1
+    else:
+        fim += 1
+    for c in range(inicio, fim, passo):
         print(c, end=' ')
         sleep(0.5)
     print('FIM!')
