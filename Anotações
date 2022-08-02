@@ -314,5 +314,7 @@ Aula 20 / Funções:
     OBS: no python é exigido a diferença de duas linhas da sua função para o programa principal.
     OBS: Quanto parametrizar é possível indicar qual indice é qual na hora de chamar apenas com nome do parâmetro=.
     OBS: Python sempre passa os valores por referência.
+    OBS: Em casa de haver travamento com a função sleep nas funções, o recomendado é por um flush = True pois
+         o buffer fica travado sem o mesmo e só exibe o final.
 
 
