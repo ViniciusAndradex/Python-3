@@ -2,13 +2,13 @@ from random import randint
 from time import sleep
 
 
-def sorteio(lista):
+def sorteio(lis):
     print('Sorteando 5 valores da lista: ', end='')
     for c in range(0, 5):
         lst = randint(1, 10)
         print(lst, end=' ')
         sleep(0.5)
-        lista.append(lst)
+        lis.append(lst)
     print('PRONTO!')
 
 
