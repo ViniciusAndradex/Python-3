@@ -317,4 +317,37 @@ Aula 20 / Funções:
     OBS: Em casa de haver travamento com a função sleep nas funções, o recomendado é por um flush = True pois
          o buffer fica travado sem o mesmo e só exibe o final.
 
+Aula 21 / Funções (Parte 2)
+    | Interactive Help | docstrings | Argumentos Opcionais | Escopo de Variáveis | Retorno de resultados |
+    Documentação:
+        Interactive Help:
+            python console:
+                help() - Manual (quit sai):
+                                Ao entrar no prompet help é possível ver a documentação da função, para tirar dúvidas e etc.
 
+            else:
+                ambiente qualquer help(function).
+        docstring:
+            print(function.__doc__)
+    Criar a propria documentação (DOCSTRING):
+        def var():
+            """
+            Tudo oque está aqui dentro será impresso no meu help
+            o que facilita na utilização de terceiros.
+            """
+    Parâmetros Opcionais:
+        Conceito:
+            Consiste em inicializar meu parâmetros com o objetivo dele não quebrar caso algum
+            dos parâmetros não seja passado.
+        Exemplo:
+            def somar(a=0, b=b, c=0):
+                s = a + b + c
+                print(s)
+    Escopo de Variáveis:
+        Lembrando que as variáveis da função o escopo é local e não funciona no principal.
+        OBS: no python é possível criar variáveis com o mesmo nome e é preciso tomar cuidado pois isso ocorre
+             em situações em que o escopo da nova var é local e portanto cria uma nova variável.
+        Para tratar um global dentro da função?
+            global var: ao utilizar qualquer modificação será em todos os locais.
+    Retorno de resultados:
+        return: não a necessidade de indicar o tipo de return no python e portanto basta return um valor.
