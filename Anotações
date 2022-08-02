@@ -293,3 +293,26 @@ Aula 19 / Dicionario:
     OBS: para criarmos listas de dicionarios é necessário passar uma copia para a lista ou então haverá uma ligação e
          ficara tudo igual.
     OBS: Para a utilização de data também é possível utilizar o datetime.now().year
+
+Aula 20 / Funções:
+    Função: São rotinas e no python as funções são definidas por ().
+    Declaração:
+        def nome():
+        exemplo:
+            def mostraLinha():
+                print('-' * 15)
+            mostraLinha()
+    Parâmetros:
+        def menssagem(msg):
+            print('-' * 30)
+            print(msg)
+        #principal
+        menssagem('Sistema de Alunos ')
+    Empacotar Parâmetros:
+        def contador(*num): <- A função irá receber quantos número quanto o necessário, Ele ficara como uma tupla.
+        Para passar uma lista não a necessidade de nenhuma função especial basta criar a lista e passar de forma direta.
+    OBS: no python é exigido a diferença de duas linhas da sua função para o programa principal.
+    OBS: Quanto parametrizar é possível indicar qual indice é qual na hora de chamar apenas com nome do parâmetro=.
+    OBS: Python sempre passa os valores por referência.
+
+
