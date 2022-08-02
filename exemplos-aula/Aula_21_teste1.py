@@ -23,12 +23,12 @@ def par(n=0):
         return True
     else:
         return False
-    
+
 
 soma(1, b=4)
 help(soma)
 print('-' * 10)
 n = int(input('Digite um número: '))
-print(f'O faotiral de {n} é {fatorial(n)}')
+print(f'O fatorial de {n} é {fatorial(n)}')
 print('-' * 10)
 print(par(9))
