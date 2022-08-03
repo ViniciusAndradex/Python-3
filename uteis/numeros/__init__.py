@@ -13,25 +13,27 @@ def triplo(n):
     return n * 3
 
 
-def leiaInt(num):
+def leiaInt(msg):
     while True:
         try:
-            x = int(input(num))
-            return x
+            x = int(input(msg))
         except ValueError:
             print(f'\033[1;31m{ValueError}: por favor, digite um número inteiro válido.\033[m')
         except KeyboardInterrupt:
             print(f'\n\033[1;31m{KeyboardInterrupt}: Usuário preferiu não digitar esse número.\033[m')
             return 0
+        else:
+            return x
 
 
-def leiaReal(num):
+def leiaReal(msg):
     while True:
         try:
-            x = float(input(num))
-            return x
+            x = float(input(msg))
         except ValueError:
             print(f'\033[1;31m{ValueError}: por favor, digite um número real válido.\033[m')
         except KeyboardInterrupt:
             print(f'\n\033[1;31m{KeyboardInterrupt}: Usuário preferiu não digitar esse número.\033[m')
             return 0
+        else:
+            return x
