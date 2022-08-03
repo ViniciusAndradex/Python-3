@@ -355,4 +355,21 @@ Aula 21 / Funções (Parte 2)
 
 Aula 22 / Módulos e Pacotes:
     Foco em dividir em pequenos pedaços e deixar mais legivel o código.
-    
+    Modularizar:
+        Para criar um módulo basta criar um arquivo .py.
+        Para utilizar o seu arquivo tem que estar no mesmo package.
+        OBS: Para o python é recomendado importar todas, para evitar possíveis conflitos de nome.
+        Vantagens:
+            - Organização de código
+            - Facilidade na manutenção
+            - Ocultação de código detalhado
+            - Reutilização em outros projetos.
+    Pacotes / Bibliotecas:
+        Quando se tem um módulo que se torna muito grande acabasse perdendo as suas vantagens e para isso
+        existem os pacotes que permitem organizar os código por funcionalidade.
+        Criar:
+            criar: python package
+            Regras para criação:
+                __init__.py : Já é criado de forma automatica
+        Utilização:
+            Os meus módulos devem ser criados dentro do __init__ e importados de forma direta.
