@@ -1,9 +1,11 @@
 def leiaDinheiro(num):
     while True:
         x = input(num)
-        if x.isnumeric():
+        x = x.replace(',', '.')
+        teste = x.replace('.', '').isdigit()
+        if teste:
             num = float(x)
             break
         else:
-            print(f'\033[1;31mERRO: \"{x}\" é um preço inválido!')
+            print(f'\033[1;31mERRO: \"{x}\" é um preço inválido!\033[m')
     return num
