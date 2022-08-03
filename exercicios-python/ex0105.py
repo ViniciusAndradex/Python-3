@@ -10,9 +10,7 @@ def nota(*notas, situacao=False):
     aluno['total'] = len(notas)
     aluno['maior'] = max(notas)
     aluno['menor'] = min(notas)
-    for c in notas:
-        media += c
-    aluno['media'] = media / aluno['total']
+    aluno['media'] = sum(notas) / len(notas)
     if situacao:
         if aluno['media'] >= 7.0:
             sit = 'Boa'
