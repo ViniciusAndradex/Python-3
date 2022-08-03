@@ -30,8 +30,8 @@ def leiaReal(msg):
     while True:
         try:
             x = float(input(msg))
-        except ValueError:
-            print(f'\033[1;31m{ValueError}: por favor, digite um número real válido.\033[m')
+        except (ValueError, TypeError):
+            print(f'\033[1;31mERRO: por favor, digite um número real válido.\033[m')
         except KeyboardInterrupt:
             print(f'\n\033[1;31m{KeyboardInterrupt}: Usuário preferiu não digitar esse número.\033[m')
             return 0
