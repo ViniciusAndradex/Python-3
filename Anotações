@@ -374,3 +374,22 @@ Aula 22 / Módulos e Pacotes:
         Utilização:
             Os meus módulos devem ser criados dentro do __init__ e importados de forma direta.
     OBS: .center: centraliza o codigo. \t tabula o código.
+
+Aula 23 / Tratamento de erros:
+    Erro de sintaxe: Não precisa de tratamento com exceções e sim de correção sintatica.
+    Exceções:
+        São erros cujo o tratamento não se trata de algo que está escrito errado e sim
+        resoluções que não estão corretas [indica com o no traceback - ERRO].
+        Exception é a classe pai destes erros, são erros que necessitam de um tratamento.
+        Declaração e tratamento:
+            try:
+                blocos
+            except Exception/tipo de ocorrência as erro(apelido)/nome explicito do erro para que você deseja tratar:
+                OBS: Pode ter quantos except necessário.
+                erro.(indica os tipos de coisa  que pode ser apresentado nesse tratamento)
+                [__class__: Nome do erro]
+                falhas
+            else: (Em caso de não falhar ele executa essa parte)
+                correto
+            finally: (sempre irá ocorrer!)
+                bloco
