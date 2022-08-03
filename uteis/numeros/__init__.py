@@ -21,6 +21,7 @@ def leiaInt(num):
         except ValueError:
             print(f'\033[1;31m{ValueError}: por favor, digite um número inteiro válido.\033[m')
 
+
 def leiaReal(num):
     while True:
         try:
