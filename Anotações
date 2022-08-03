@@ -373,3 +373,4 @@ Aula 22 / Módulos e Pacotes:
                 __init__.py : Já é criado de forma automatica
         Utilização:
             Os meus módulos devem ser criados dentro do __init__ e importados de forma direta.
+    OBS: .center: centraliza o codigo.
