@@ -1,9 +1,9 @@
 def voto(ano):
     from datetime import datetime
     idade = datetime.now().year - ano
-    if idade < 18:
+    if idade < 15:
         opc = 'NÃO VOTA'
-    elif idade >= 65:
+    elif idade >= 65 or idade < 18:
         opc = 'VOTO OPCIONAL'
     else:
         opc = 'VOTO OBRIGATÓRIO'
