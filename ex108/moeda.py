@@ -15,6 +15,6 @@ def diminuir(num, perc):
 
 
 def moeda(num):
-    formatacao = f'R${num:.2f}'
+    formatacao = f'R$ {num:.2f}'
     formatacao = formatacao.replace('.', ',')
     return formatacao
