@@ -20,6 +20,8 @@ def leiaInt(num):
             return x
         except ValueError:
             print(f'\033[1;31m{ValueError}: por favor, digite um número inteiro válido.\033[m')
+        except KeyboardInterrupt:
+            print(f'\033[1;31m{KeyboardInterrupt}: Usuário preferiu não figitar esse número.\033[m')
 
 
 def leiaReal(num):
@@ -29,3 +31,5 @@ def leiaReal(num):
             return x
         except ValueError:
             print(f'\033[1;31m{ValueError}: por favor, digite um número real válido.\033[m')
+        except KeyboardInterrupt:
+            print(f'\033[1;31m{KeyboardInterrupt}: Usuário preferiu não figitar esse número.\033[m')
