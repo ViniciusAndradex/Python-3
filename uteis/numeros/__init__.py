@@ -20,4 +20,4 @@ def leiaInt(num):
             x = int(x)
             return x
         except Exception as erro:
-            print(erro)
+            print(f'\033[1;31m{erro.}: por favor, digite um número inteiro válido.\033[m')
