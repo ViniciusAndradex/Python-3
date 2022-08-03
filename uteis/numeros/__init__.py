@@ -11,3 +11,13 @@ def dobro(n):
 
 def triplo(n):
     return n * 3
+
+
+def leiaInt(num):
+    while True:
+        try:
+            x = int(input(num))
+            x = int(x)
+            return x
+        except Exception as erro:
+            print(erro)
