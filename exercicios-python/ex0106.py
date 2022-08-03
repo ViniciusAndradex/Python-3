@@ -30,6 +30,7 @@ def manual(instrucao):
     cabecalho(instrucao)
     print(f'\033[1;31;40m', end='')
     help(instrucao)
+    print('\033[m')
 
 
 # Programa Principal
