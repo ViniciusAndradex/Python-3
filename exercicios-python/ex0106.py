@@ -5,7 +5,7 @@ def cabecalho(comand=''):
     :return: não possui retorno.
     :author: Vinicius Andrade
     """
-    if comand == 'fim':
+    if comand.lower() == 'fim':
         frase = 'ATÉ LOGO!'
         print('\033[1;33;41m', end='')
     elif comand != '':
@@ -29,15 +29,14 @@ def manual(instrucao):
     """
     cabecalho(instrucao)
     print(f'\033[1;31;40m', end='')
-    return help(instrucao)
+    help(instrucao)
 
 
 # Programa Principal
-help(cabecalho)
 while True:
     cabecalho()
-    resp = input('Função ou Biblioteca > ').lower()
-    if resp == 'fim':
+    resp = input('Função ou Biblioteca > ')
+    if resp.lower() == 'fim':
         cabecalho(resp)
         break
     else:
