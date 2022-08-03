@@ -2,7 +2,7 @@ def metade(num, show=False):
     valor = num / 2
     if show:
         valor = moeda(valor)
-    return
+    return valor
 
 
 def dobro(num, show=False):
