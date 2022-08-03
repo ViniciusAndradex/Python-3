@@ -7,5 +7,5 @@ def leiaDinheiro(num):
             num = float(x)
             break
         else:
-            print(f'\033[1;31mERRO: \"{x}\" é um preço inválido!\033[m')
+            print(f'\033[1;31mERRO: \"{x.strip()}\" é um preço inválido!\033[m')
     return num
