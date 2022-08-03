@@ -32,7 +32,7 @@ def moeda(num):
     return formatacao
 
 
-def resumo(num, aum, desc):
+def resumo(num, aum=10, desc=10):
     print('-' * 32)
     print(f'{"RESUMO DO VALOR":^30}')
     print('-' * 32)
