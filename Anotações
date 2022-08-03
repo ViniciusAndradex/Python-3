@@ -352,3 +352,7 @@ Aula 21 / Funções (Parte 2)
             global var: ao utilizar qualquer modificação será em todos os locais.
     Retorno de resultados:
         return: não a necessidade de indicar o tipo de return no python e portanto basta return um valor.
+
+Aula 22 / Módulos e Pacotes:
+    Foco em dividir em pequenos pedaços e deixar mais legivel o código.
+    
