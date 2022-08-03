@@ -1,4 +1,4 @@
-def nota(* notas, situacao=False):
+def nota(*notas, situacao=False):
     """
     -> Função para analisar notas e situações de vários alunos.
     :param notas: uma ou mais notas dos alunos (aceita várias notas).
