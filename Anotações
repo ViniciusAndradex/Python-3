@@ -397,9 +397,11 @@ Aula 23 / Tratamento de erros:
 
 Arquivos:
     Para criar:
-        open(nome, 'wt+')
+        open(nome, 'wt+') o + é quem é reponsável por criar
     Ler:
         open(nome, 'rt')
         arquivo.readline: Apresenta linha a linha o seu arquivo, jogando em uma lista
         arquivo.read: Apresenta da maneira em que está descrita no arquivo.
+    Adicionar:
+        'at': append text.
     Exceptions (File):

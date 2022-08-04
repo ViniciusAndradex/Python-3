@@ -1,5 +1,6 @@
 from ex115.lib.interface import *
 from ex115.lib.arquivo import *
+from uteis.numeros import leiaInt
 
 arq = 'cursoemvideo.txt'
 if not arquivoExiste(arq):
@@ -10,7 +11,10 @@ while True:
         # Opção de Listar conteúdo
         lerArquivo(arq)
     elif resposta == 2:
-        print('Opção 2')
+        cabecalho('NOVO CADASTRO')
+        nome = str(input('NOME: '))
+        idade = leiaInt('Idade: ')
+        cadastrar(arq, nome, idade)
     elif resposta == 3:
         cabecalho('Saindo do sistema.. Até logo!')
         break
