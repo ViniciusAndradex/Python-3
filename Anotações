@@ -394,3 +394,6 @@ Aula 23 / Tratamento de erros:
             finally: (sempre irá ocorrer!)
                 bloco
     OBS: Para teste de acessos a rede, biblioteca urllib.
+
+Arquivos:
+    
