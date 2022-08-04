@@ -1,9 +1,14 @@
 from ex115.lib.interface import *
+from ex115.lib.arquivo import *
 
+arq = 'cursoemvideo.txt'
+if not arquivoExiste(arq):
+    criarArquivo(arq)
 while True:
     resposta = menu(['Ver pessoas cadastradas', 'Cadastrar noa Pessoa', 'Sair do Sistema'])
     if resposta == 1:
-        print('Opção 1')
+        # Opção de Listar conteúdo
+        lerArquivo(arq)
     elif resposta == 2:
         print('Opção 2')
     elif resposta == 3:

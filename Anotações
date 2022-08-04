@@ -396,4 +396,10 @@ Aula 23 / Tratamento de erros:
     OBS: Para teste de acessos a rede, biblioteca urllib.
 
 Arquivos:
-    
+    Para criar:
+        open(nome, 'wt+')
+    Ler:
+        open(nome, 'rt')
+        arquivo.readline: Apresenta linha a linha o seu arquivo, jogando em uma lista
+        arquivo.read: Apresenta da maneira em que está descrita no arquivo.
+    Exceptions (File):
